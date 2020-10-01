@@ -8,7 +8,7 @@ class Alert extends Component
         return(
             <div>
                 <Navigation />
-                <p style={{color: '#FF6347', fontSize: '30px', marginTop: '10px', marginBottom: '10px'}}><strong>Alerts</strong></p>
+                <p style={{color: '#FF6347', fontSize: '30px', marginTop: '10px', marginBottom: '10px', marginLeft: '10px'}}><strong>Alerts for commit</strong></p>
                 <div style={{textAlign: 'center'}}>
                     <div style={{display: 'inline-block'}}>
                     <table style={{border: '1px solid black', borderCollapse: 'collapse'}}>
@@ -20,7 +20,15 @@ class Alert extends Component
                 </table>
                     </div>
                 </div>
+                <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
             </div>
+    
         )
     }
 }
